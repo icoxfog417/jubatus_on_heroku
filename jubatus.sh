@@ -1,1 +1,1 @@
-jubaclassifier --name tutorial --configpath jubatus_config.json
+jubaclassifier --name tutorial_h --configpath jubatus_config.json
