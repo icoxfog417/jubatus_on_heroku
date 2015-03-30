@@ -1,5 +1,4 @@
 BUILD_DIR=$(pwd)
-echo "$PORT"
 JUBATUS_HOME="$BUILD_DIR/.apt/opt/jubatus"
 
 export PATH="$BUILD_DIR/.apt/usr/bin:$JUBATUS_HOME/bin:$PATH"
