@@ -1,2 +1,2 @@
-worker: jubaclassifier --name tutorial --configpath config.json
+worker: run_jubatus
 run: python tutorial.py
