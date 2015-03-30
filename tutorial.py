@@ -11,7 +11,7 @@ def parse_args():
     from optparse import OptionParser, OptionValueError
     p = OptionParser()
     p.add_option('-s', '--server_ip', action='store',
-                 dest='server_ip', type='string', default='localhost')
+                 dest='server_ip', type='string', default='127.0.0.1')
     p.add_option('-p', '--server_port', action='store',
                  dest='server_port', type='int', default='9199')
     p.add_option('-n', '--name', action='store',

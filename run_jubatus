@@ -1,5 +1,5 @@
 BUILD_DIR=$(pwd)
-echo "$BUILD_DIR"
+echo "$PORT"
 JUBATUS_HOME="$BUILD_DIR/.apt/opt/jubatus"
 
 export PATH="$BUILD_DIR/.apt/usr/bin:$JUBATUS_HOME/bin:$PATH"
@@ -10,4 +10,4 @@ export CPATH="$INCLUDE_PATH"
 export CPPPATH="$INCLUDE_PATH"
 export PKG_CONFIG_PATH="$BUILD_DIR/.apt/usr/lib/x86_64-linux-gnu/pkgconfig:$BUILD_DIR/.apt/usr/lib/i386-linux-gnu/pkgconfig:$BUILD_DIR/.apt/usr/lib/pkgconfig:$PKG_CONFIG_PATH"
 
-jubaclassifier --name tutorial --configpath config.json
+jubaclassifier --name tutorial --configpath config.json -rpc-port $PORT
