@@ -1,2 +1,2 @@
-worker: run_jubatus
+worker: bash run_jubatus
 run: python tutorial.py
