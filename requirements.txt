@@ -1,0 +1,6 @@
+backports.ssl-match-hostname==3.4.0.2
+certifi==14.5.14
+jubatus==0.7.0
+msgpack-python==0.4.6
+msgpack-rpc-python==0.4
+tornado==4.1
